@@ -1,10 +1,23 @@
 # CommonAndroidUtils
-A simple android library in which common android utils functions added.
+A simple android library in which common android utils functions like show toast, Intent, check network etc..
 
 
-# usage
+# Usage
 
+# 1).How to show Toast
  CommonUtils.showLongToast(this,"Hello");
+ 
+# 2). Check network status
+ CommonUtils.checkIsNetworkAvailable(this);
+ 
+# 3). Check Language
+CommonUtils.checkLanguage(this,"en");
+
+# 4). Hide Keyboard
+CommonUtils.hideKeyboard(context,view);
+
+# 5). Start Activity Intent
+CommonUtils.genericIntent(context,className,bundle,isFinished);
 
 # Download
 
