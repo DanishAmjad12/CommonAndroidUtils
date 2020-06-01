@@ -5,22 +5,29 @@ A simple android library in which common android utils functions like show toast
 # Usage
 
 # 1).How to show Toast
+``` Java
  CommonUtils.showLongToast(this,"Hello");
- 
+ ```
 # 2). Check network status
+``` Java
  CommonUtils.checkIsNetworkAvailable(this);
- 
+ ```
 # 3). Check Language
+``` Java
 CommonUtils.checkLanguage(this,"en");
-
+```
 # 4). Hide Keyboard
+``` Java
 CommonUtils.hideKeyboard(context,view);
+```
 
 # 5). Start Activity Intent
+``` Java
 CommonUtils.genericIntent(context,className,bundle,isFinished);
+```
 
 # Download
-
+``` Java
 
 	allprojects {
 		repositories {
@@ -32,6 +39,7 @@ CommonUtils.genericIntent(context,className,bundle,isFinished);
   	dependencies {
 	        implementation 'com.github.DanishAmjad12:CommonAndroidUtils:1.0.1'
 	}
+```
 
 # Licence
 
